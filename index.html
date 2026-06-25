@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe Thrift Nairobi | Premium Streetwear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <p>📦 Countrywide delivery via G4S, Wells Fargo & Reliable Shuttles &nbsp;|&nbsp; 💸 Lipa na M-Pesa</p>
+  </div>
+
+  <!-- STICKY HEADER -->
+  <header class="main-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-main">VIBE THRIFT</span>
+        <span class="logo-sub">Nairobi Vintage</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#collection">Shop</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#social-proof">Community</a>
+        <a href="#footer">Visit Us</a>
+      </nav>
+      <a class="header-whatsapp-btn" href="https://wa.me/254720871721?text=Hi%2C%20I%27d%20like%20to%20browse%20your%20latest%20drop%21" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chat Us
+      </a>
+      <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#collection" onclick="toggleMenu()">Shop</a>
+      <a href="#how-it-works" onclick="toggleMenu()">How It Works</a>
+      <a href="#social-proof" onclick="toggleMenu()">Community</a>
+      <a href="#footer" onclick="toggleMenu()">Visit Us</a>
+      <a class="mobile-whatsapp" href="https://wa.me/254720871721" target="_blank">Chat on WhatsApp</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Curated Streetwear · Nairobi</span>
+      <h1>Thrift Styles<br>That Make You<br><em>Stand Out</em></h1>
+      <p>Handpicked premium vintage. One-of-one pieces. Delivered straight to your door.</p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn btn-primary">Explore Latest Drop</a>
+        <a href="https://wa.me/254720871721?text=Hi%2C%20show%20me%20what%27s%20available!" target="_blank" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Ask Us Anything
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="white" stroke-width="2"><rect x="1" y="1" width="14" height="22" rx="7"/><circle cx="8" cy="7" r="2" fill="white" class="scroll-dot"/></svg>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <div class="trust-strip">
+    <div class="trust-strip-inner">
+      <span>✅ 100% Authentic Pieces</span>
+      <span>📍 Ships Countrywide</span>
+      <span>💳 M-Pesa Accepted</span>
+      <span>🔁 Easy Returns</span>
+      <span>💬 WhatsApp Support</span>
+    </div>
+  </div>
+
+  <!-- CATEGORY FILTER -->
+  <section class="categories-section" id="collection">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Latest Drop <span class="drop-badge">June '26</span></h2>
+        <p class="section-sub">All items are 1-of-1. Once it's gone, it's gone.</p>
+      </div>
+      <div class="category-filters">
+        <button class="cat-btn active" data-filter="all">All Drops</button>
+        <button class="cat-btn" data-filter="gents">Gents</button>
+        <button class="cat-btn" data-filter="ladies">Ladies</button>
+        <button class="cat-btn" data-filter="oversized">Oversized</button>
+        <button class="cat-btn" data-filter="bottoms">Bottoms</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT GRID -->
+  <section class="collection-section">
+    <div class="container">
+      <div class="products-grid" id="productsGrid">
+
+        <!-- Card 1 -->
+        <article class="product-card" data-category="gents">
+          <div class="product-image-wrapper">
+            <span class="product-tag rare">Rare Find</span>
+            <span class="product-tag-sold-indicator available">Available</span>
+            <img src="https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=600&q=80" alt="Vintage Varsity Jacket" loading="lazy">
+            <div class="product-quick-action">
+              <button onclick="triggerOrder('Retro College Varsity Jacket', '2,500', 'M')">Quick Claim</button>
+            </div>
+          </div>
+          <div class="product-details">
+            <div class="product-top-row">
+              <span class="product-category-label">Gents · Outerwear</span>
+            </div>
+            <h3 class="product-name">Retro College Varsity Jacket</h3>
+            <div class="product-meta">
+              <span class="product-price">Ksh 2,500</span>
+              <span class="product-size">Size M</span>
+            </div>
+            <button class="whatsapp-btn" onclick="triggerOrder('Retro College Varsity Jacket', '2,500', 'M')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Claim via WhatsApp
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="product-card" data-category="bottoms">
+          <div class="product-image-wrapper">
+            <span class="product-tag new">New Drop</span>
+            <span class="product-tag-sold-indicator available">Available</span>
+            <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80" alt="Levi's 501 Dark Wash" loading="lazy">
+            <div class="product-quick-action">
+              <button onclick="triggerOrder('Classic Dark Wash Levi\'s 501', '1,800', '32')">Quick Claim</button>
+            </div>
+          </div>
+          <div class="product-details">
+            <div class="product-top-row">
+              <span class="product-category-label">Gents · Bottoms</span>
+            </div>
+            <h3 class="product-name">Classic Dark Wash Levi's 501</h3>
+            <div class="product-meta">
+              <span class="product-price">Ksh 1,800</span>
+              <span class="product-size">Size 32</span>
+            </div>
+            <button class="whatsapp-btn" onclick="triggerOrder('Classic Dark Wash Levi\'s 501', '1,800', '32')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Claim via WhatsApp
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="product-card" data-category="ladies">
+          <div class="product-image-wrapper">
+            <span class="product-tag hot">🔥 Hot</span>
+            <span class="product-tag-sold-indicator available">Available</span>
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80" alt="Vintage Windbreaker" loading="lazy">
+            <div class="product-quick-action">
+              <button onclick="triggerOrder('90s Vintage Windbreaker', '3,200', 'S')">Quick Claim</button>
+            </div>
+          </div>
+          <div class="product-details">
+            <div class="product-top-row">
+              <span class="product-category-label">Ladies · Outerwear</span>
+            </div>
+            <h3 class="product-name">90s Vintage Windbreaker</h3>
+            <div class="product-meta">
+              <span class="product-price">Ksh 3,200</span>
+              <span class="product-size">Size S</span>
+            </div>
+            <button class="whatsapp-btn" onclick="triggerOrder('90s Vintage Windbreaker', '3,200', 'S')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Claim via WhatsApp
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="product-card" data-category="oversized">
+          <div class="product-image-wrapper">
+            <span class="product-tag new">New Drop</span>
+            <span class="product-tag-sold-indicator sold">Sold</span>
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600&q=80" alt="Oversized Graphic Tee" loading="lazy">
+            <div class="sold-overlay">SOLD</div>
+          </div>
+          <div class="product-details">
+            <div class="product-top-row">
+              <span class="product-category-label">Oversized · Tops</span>
+            </div>
+            <h3 class="product-name">Oversized Band Graphic Tee</h3>
+            <div class="product-meta">
+              <span class="product-price">Ksh 900</span>
+              <span class="product-size">Size XL</span>
+            </div>
+            <button class="whatsapp-btn sold-btn" disabled>
+              Sold — Ask for Similar
+            </button>
+          </div>
+        </article>
+
+      </div>
+      <!-- Empty state for filter -->
+      <div class="empty-state" id="emptyState" style="display:none;">
+        <p>No items in this category right now.</p>
+        <a href="https://wa.me/254720871721?text=Hi%2C%20do%20you%20have%20any%20items%20in%20this%20category%3F" target="_blank" class="btn btn-primary">Ask on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title center">How It Works</h2>
+      <p class="section-sub center">Claim your piece in under 2 minutes</p>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">01</div>
+          <h3>Pick Your Piece</h3>
+          <p>Browse the drop above. Each item is one-of-one — no restocks.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <h3>Tap & Claim</h3>
+          <p>Hit "Claim via WhatsApp" and we'll confirm your order instantly.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <h3>Pay & Ship</h3>
+          <p>Send M-Pesa and we dispatch same day via your nearest courier.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGITATION SECTION -->
+  <section class="agitation-section">
+    <div class="container">
+      <div class="agitation-box">
+        <span class="agitation-eyebrow">Why Vibe Thrift?</span>
+        <h2>Tired of paying crazy retail prices<br>for clothes everyone else is wearing?</h2>
+        <p>Mass-produced retail brands overcharge you for weak fabric and generic designs. We hunt down premium, heavy-blend vintage pieces so you can build a unique wardrobe — without going broke.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="social-proof-section" id="social-proof">
+    <div class="container">
+      <h2 class="section-title center">Spotted in Vibe Thrift</h2>
+      <p class="section-sub center">Tag us <strong>@vibethriftnairobi</strong> on Instagram to get featured</p>
+      <div class="instagram-feed-grid">
+        <div class="feed-item feed-tall">
+          <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&q=80" alt="Community member 1" loading="lazy">
+        </div>
+        <div class="feed-item">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80" alt="Community member 2" loading="lazy">
+        </div>
+        <div class="feed-item">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=400&q=80" alt="Community member 3" loading="lazy">
+        </div>
+        <div class="feed-item">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400&q=80" alt="Community member 4" loading="lazy">
+        </div>
+      </div>
+      <div class="testimonials-row">
+        <div class="testimonial-card">
+          <p>"The denim jacket I ordered arrived in Thika the next day. Quality is 10/10!"</p>
+          <span>@mwangi_j · <em>Verified Buyer</em></span>
+        </div>
+        <div class="testimonial-card">
+          <p>"Finally a thrift store that actually curates — not just any random piece."</p>
+          <span>@nairobi_threads · <em>Verified Buyer</em></span>
+        </div>
+        <div class="testimonial-card">
+          <p>"WhatsApp ordering is so easy. Sent M-Pesa, got my varsity in 2 days."</p>
+          <span>@steph_wears · <em>Verified Buyer</em></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="store-footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-main">VIBE THRIFT</span>
+        <p>Premium vintage streetwear, curated for Nairobi.</p>
+        <a href="https://wa.me/254720871721" target="_blank" class="footer-whatsapp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat with Us
+        </a>
+      </div>
+      <div class="footer-col">
+        <h4>Visit Us</h4>
+        <p>Soin Arcade, Ground Floor</p>
+        <p>Westlands, Nairobi</p>
+        <p>Open Daily: 9AM – 7PM</p>
+      </div>
+      <div class="footer-col">
+        <h4>Payment</h4>
+        <p>Lipa na M-Pesa</p>
+        <p>Paybill: 000000</p>
+        <p>Account: Your Phone No.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Delivery</h4>
+        <p>G4S Courier</p>
+        <p>Wells Fargo</p>
+        <p>Reliable Shuttles</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 VIBE THRIFT NAIROBI. All rights reserved.</p>
+      <p class="footer-credit">Built by <strong>Sammy Freelancer</strong></p>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/254720871721?text=Hi%2C%20I%27d%20like%20to%20browse%20your%20latest%20drop!" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>Order via WhatsApp</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
