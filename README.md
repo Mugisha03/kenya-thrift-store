@@ -3,7 +3,7 @@
 This is a clean, mobile-friendly landing page built for a vintage clothing store in Nairobi, Kenya. 
 
 ## 🔗 Live Website
-* **Click here to see the live project:** [PASTE YOUR NETLIFY LINK HERE]
+* **Click here to see the live project:** (https://vibethrift.netlify.app/)
 
 ## 💡 What this project does
 * **Mobile First:** Designed to look perfect on smartphones, which is how most people shop in Kenya.
